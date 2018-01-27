@@ -1,0 +1,167 @@
+@media (max-width: 767px){
+/* The Overlay (background) */
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */    
+    height: 0;
+    width: 100%;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(235,235,235); /* Black fallback color */
+    background-color: rgba(235,235,235, 1); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.8s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+    position: relative;
+    top: 0%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: left; /* Centered text/links */
+    margin-top: 10px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+    padding-left:30px;
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+    display: block; /* Display block instead of inline */
+    transition: 0.5s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+    background-color: #f8f8f8;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+    text-align: left;
+    padding-left:30px;
+    cursor:pointer;
+    color:#000;
+    z-index: 999;
+}
+
+.overlay-content a img{
+    display: none;
+}
+    .overlay-content hr{
+        border-bottom: 0px;
+        border-color: #999;
+        margin: 5px 30px 5px 9px;
+        
+    }
+    #quote {
+        text-align: center;
+        color: #333;
+        font-family: 'Ubuntu', sans-serif, Arial;
+        font-size: 40px;
+    }
+    .container #quote span{
+        font-size: 34px;
+        color: #666;
+    }
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+nav{
+        width: 100% !important;
+        background-color:rgba(255,255,255,1);
+        height: 45px;
+    }
+
+
+@media(min-width: 768px){
+    .closebtn, #open,.overlay-content hr{
+        display: none;
+    }
+    .overlay-content{
+        text-align: center;
+    }
+    .overlay-content a{
+        font-family: sans-serif;
+        font-size: 16px;
+        color: #000;
+        line-height: 120px;
+        z-index: 99999;
+        margin-left:2.8%;
+    }
+    .overlay-content a #nav-menu-item{
+        margin-top:10px;
+    }
+    .overlay-content a:nth-child(1){
+        float: left;
+    }
+    .overlay-content a img{
+        height:75px;
+        margin-top:-32px;
+        width:120px;
+    }
+    .overlay-content a:not(#img):hover{
+        text-decoration: none;
+        z-index: -100;
+    }
+
+    footer .jumbotron{
+        height: 200px;
+        bottom: 0;
+        position: absolute;
+        width: 100%;
+        margin-bottom: 0;
+        background-color:#000;
+        padding: 0;
+        padding-top: 30px;
+    }
+
+    footer .footer-info{
+        
+        width: 400px;
+        margin-top: 0;
+        padding-top: 0;
+        height: auto;
+    }
+    .footer-info p{
+        color: #999;
+        font-family: sans-serif;
+        font-weight: normal;
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+    .footer-info p span{
+        font-size: 12px;
+        font-weight: lighter;
+    }
+
+    .footer-info p a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+        padding-right: 10px;
+        margin-right: 5px;
+
+    }
+
+    .footer-social a img{
+        height: 22px;
+        width: 22px;
+        
+
+    }
+    
+}
