@@ -163,5 +163,37 @@ nav{
         
 
     }
+
+    .content h1{
+       font-weight: lighter;
+       text-align: center;
+       margin-top: 60px;
+        font-family: 'Quicksand',sans-serif;
+        color: #333;
+        font-size: 25px;
+        
+    }
+
+    .content hr{
+        margin-left:20%;
+        margin-right:20%;
+        border-color: #a3a3a3;
+        margin-top: -3px;
+    }
+    .content h3{
+        font-size: 18px;
+        text-align: center;
+        margin-top:40px;
+        margin-bottom: 25px;
+        font-family: sans-serif;
+        color: #000;
+    }
+
+    .content p{
+        font-size: 14px;
+        font-family: sans-serif;
+        font-weight: normal;
+        text-align: justify;
+    }
     
 }

@@ -6242,8 +6242,9 @@ button.close {
 }
 .carousel-inner {
   position: relative;
-  width: 100%;
+  width: 95%;
   overflow: hidden;
+  border-radius: 1px;
 }
 .carousel-inner > .item {
   position: relative;
@@ -6322,7 +6323,7 @@ button.close {
   top: 0;
   bottom: 0;
   left: 0;
-  width: 15%;
+  width: 0%;
   font-size: 20px;
   color: #fff;
   text-align: center;
