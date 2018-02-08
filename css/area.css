@@ -1,14 +1,10 @@
 @media(min-width: 992px){
 
-    .overlay-content a:nth-child(10){
+    .overlay-content a:nth-child(4){
         background-color: #fff;
         color: #000;
         padding:25px 4px 25px 4px;       
     }
 
-    .content a{
-        font-size: 16px;
-    }
 
-    
 }

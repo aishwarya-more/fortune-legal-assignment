@@ -1,4 +1,4 @@
-@media(min-width: 768px){
+@media(min-width: 992px){
 
     .overlay-content a:nth-child(8){
         background-color: #fff;
@@ -18,3 +18,14 @@
     }
     
 }
+
+.list-content li{
+        font-size: 16px;
+    }
+
+    .image img {
+        display: inline;
+        margin-right: 45px;
+        margin-left: 90px;
+        margin-bottom: 30px;
+    }
