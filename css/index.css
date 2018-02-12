@@ -7,10 +7,16 @@
     z-index: 1; /* Sit on top */
     left: 0;
     top: 0;
+    width:100%;
     background-color: rgb(235,235,235); /* Black fallback color */
     background-color: rgba(0,0,0, 0.95); /* Black w/opacity */
     overflow-x: hidden; /* Disable horizontal scroll */
     transition: 0.8s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+.overlay-content #home-menu{
+    visibility: visible;
+    display: block;
 }
 
 /* Position the content inside the overlay */
@@ -75,9 +81,16 @@
     padding-right: 15px;
 }
 
+.overlay-content #home-menu{
+    visibility: visible;
+    display: block;
+}
+
 
 /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
 @media screen and (max-height: 450px) {
+
+
 
     .content p{
         font-size: 16px;
@@ -160,6 +173,11 @@ footer .jumbotron{
     nav{
         background-color: #000;
 
+    }
+
+    .overlay-content #home-menu{
+    visibility: hidden;
+    display: none;
     }
     .closebtn, #open,.overlay-content hr{
         display: none;

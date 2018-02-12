@@ -6,5 +6,15 @@
         padding:25px 4px 25px 4px;       
     }
 
-    
+    .article-content a{
+    	font-size: 18px;
+    	font-family: sans-serif;
+    	font-weight: lighter;
+    }
 }
+
+.article-content a{
+    	font-size: 18px;
+    	font-family: sans-serif;
+    	font-weight: lighter;
+    }
