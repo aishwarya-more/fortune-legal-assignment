@@ -23,7 +23,7 @@
 .overlay-content {
     position: relative;
     top: 0%; /* 25% from the top */
-     /* 100% width */
+    /* 100% width */
     text-align: left; /* Centered text/links */
     margin-top: 10px; /* 30px top margin to avoid conflict with the close button on smaller screens */
     padding-left:30px;
@@ -48,7 +48,7 @@
 /* Position the close button (top right corner) */
 .overlay .closebtn {
     text-align: left;
-    padding-left:15px;
+    padding-left:30.5px;
     cursor:pointer;
     color:#fff;
     z-index: 999;
@@ -86,6 +86,14 @@
     display: block;
 }
 
+.overlay .closebtn {
+    text-align: left;
+    padding-left:54px;
+    cursor:pointer;
+    color:#fff;
+    z-index: 999;
+}
+
 
 /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
 @media screen and (max-height: 450px) {
@@ -106,6 +114,7 @@
         font-size: 40px;
         top: 15px;
         right: 35px;
+
     }
 }
 nav{

@@ -1,0 +1,76 @@
+@media(min-width: 992px){
+
+    .overlay-content a:nth-child(8){
+        background-color: #fff;
+        color: #000;
+        padding:25px 4px 25px 4px;       
+    }
+
+    .article-content #trademark-table {
+    font-family: sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#trademark-table td, #trademark-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+
+
+}
+
+#trademark-table{
+	table-layout: fixed;
+} 
+
+#trademark-table #serialNo{
+	width: 110px;
+}
+
+#trademark-table tr:nth-child(even){background-color: #f2f2f2;}
+
+#trademark-table tr:hover {background-color: #ddd;}
+
+#trademark-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #005900;
+    color: white;
+
+}
+
+
+
+}
+
+.article-content #trademark-table {
+    font-family:  sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#trademark-table td, #trademark-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#trademark-table tr:nth-child(even){background-color: #f2f2f2;}
+
+#trademark-table tr:hover {background-color: #ddd;}
+
+#trademark-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #005900;
+    color: white;
+}
+
+#trademark-table{
+	table-layout: fixed;
+} 
+
+#trademark-table #serialNo{
+	width: 110px;
+}
