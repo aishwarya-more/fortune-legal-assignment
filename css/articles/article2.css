@@ -6,6 +6,11 @@
         padding:25px 4px 25px 4px;       
     }
 
+    .article-content p {
+        color: #000;
+        font-family: sans-serif;
+    }
+
     .article-content #trademark-table {
     font-family: sans-serif;
     border-collapse: collapse;
@@ -43,6 +48,11 @@
 
 
 }
+
+.article-content p {
+        color: #000;
+        font-family: sans-serif;
+    }
 
 .article-content #trademark-table {
     font-family:  sans-serif;
