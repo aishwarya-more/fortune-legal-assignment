@@ -1,0 +1,23 @@
+/*Contact Form*/
+/* Animation */
+.contacts{
+	-webkit-animation-name:fade;
+	-webkit-animation-duration:2s;
+	-webkit-animation-fill-mode:forwards;
+	opacity: 0;
+}
+
+
+
+.container-contact100 {
+	-webkit-animation-name:fade;
+	-webkit-animation-duration:6s;
+	-webkit-animation-fill-mode:forwards;
+	opacity: 0;
+}
+
+@-webkit-keyframes fade{
+	100%{
+		opacity: 1;
+	}
+}

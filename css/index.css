@@ -1,3 +1,4 @@
+
 @media (max-width: 992px){
 /* The Overlay (background) */
 .overlay {
@@ -23,10 +24,11 @@
 .overlay-content {
     position: relative;
     top: 0%; /* 25% from the top */
-    /* 100% width */
+    width:100%;/* 100% width */
     text-align: left; /* Centered text/links */
     margin-top: 10px; /* 30px top margin to avoid conflict with the close button on smaller screens */
     padding-left:30px;
+
 }
 
 /* The navigation links inside the overlay */
@@ -38,6 +40,9 @@
     color: #fff;
     display: block; /* Display block instead of inline */
     transition: 0.5s; /* Transition effects on hover (color) */
+     font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    margin-left:20px;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -63,16 +68,8 @@
         margin: 5px 30px 5px 9px;
         
     }
-    #quote {
-        text-align: center;
-        color: #333;
-        font-family: 'Ubuntu', sans-serif, Arial;
-        font-size: 40px;
-    }
-    .container #quote span{
-        font-size: 34px;
-        color: #666;
-    }
+  
+    
 }
 
 
@@ -102,7 +99,7 @@
 
     .content p{
         font-size: 16px;
-        font-family: sans-serif;
+        font-family: 'Rubik', sans-serif;
         font-weight: normal;
         text-align: justify;
     }
@@ -149,7 +146,7 @@ footer .jumbotron{
 
  .footer-info p{
         color: #999;
-        font-family: sans-serif;
+        font-family: 'Rubik', sans-serif;
         font-weight: normal;
         font-size: 14px;
         margin-bottom: 8px;
@@ -171,7 +168,7 @@ footer .jumbotron{
 
 .content p{
         font-size: 16px;
-        font-family: sans-serif;
+        font-family: 'Rubik', sans-serif;
         font-weight: normal;
         text-align: justify;
 
@@ -194,15 +191,18 @@ footer .jumbotron{
     .overlay-content{
         text-align: center;
         background-color: #000;
-        height:50px;
+        height:45px;
+        width:100%;
+        margin-left: 30px;
     }
     .overlay-content a{
-        font-family: sans-serif;
+        font-family: 'Rubik', sans-serif;
+        font-weight:400;
         font-size: 15px;
         color: #fff;
         line-height: 55px;
         z-index: 99999;
-        margin-left:2.8%;
+        margin-left:1.8%;
     }
     .overlay-content a #nav-menu-item{
         margin-top:10px;
@@ -239,7 +239,7 @@ footer .jumbotron{
     }
     .footer-info p{
         color: #999;
-        font-family: sans-serif;
+        font-family: 'Rubik', sans-serif;
         font-weight: normal;
         font-size: 14px;
         margin-bottom: 8px;
@@ -286,13 +286,13 @@ footer .jumbotron{
         text-align: center;
         margin-top:40px;
         margin-bottom: 25px;
-        font-family: sans-serif;
+        font-family: 'Rubik', sans-serif;
         color: #000;
     }
 
     .content p{
         font-size: 16px;
-        font-family: sans-serif;
+        font-family: 'Rubik', sans-serif;
         font-weight: normal;
         text-align: justify;
     }
