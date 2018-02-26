@@ -2,7 +2,7 @@
 /* Animation */
 .contacts{
 	-webkit-animation-name:fade;
-	-webkit-animation-duration:2s;
+	-webkit-animation-duration:1.5s;
 	-webkit-animation-fill-mode:forwards;
 	opacity: 0;
 }
@@ -11,7 +11,21 @@
 
 .container-contact100 {
 	-webkit-animation-name:fade;
-	-webkit-animation-duration:6s;
+	-webkit-animation-duration:4s;
+	-webkit-animation-fill-mode:forwards;
+	opacity: 0;
+}
+
+.content h1 {
+	-webkit-animation-name:fade;
+	-webkit-animation-duration:1.5s;
+	-webkit-animation-fill-mode:forwards;
+	opacity: 0;
+}
+
+.content hr {
+	-webkit-animation-name:fade;
+	-webkit-animation-duration:3s;
 	-webkit-animation-fill-mode:forwards;
 	opacity: 0;
 }
